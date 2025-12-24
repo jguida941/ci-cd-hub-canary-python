@@ -27,20 +27,20 @@ python:
       enabled: true
       fail_on_vuln: true
     mypy:
-      enabled: false
+      enabled: true
     mutmut:
-      enabled: false
+      enabled: true
       min_mutation_score: 70
     semgrep:
-      enabled: false
+      enabled: true
     trivy:
-      enabled: false
+      enabled: true
       fail_on_critical: false
       fail_on_high: false
     codeql:
       enabled: true
     docker:
-      enabled: false
+      enabled: true
 reports:
   retention_days: 30
   badges:
